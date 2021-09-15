@@ -1,4 +1,4 @@
-# ASUS ZenFone 8
-TWRP device tree for ASUS ZenFone 8
-a.k.a. "sake"
-a.k.a. ZS590KS
+# ASUS ROG Phone 5(s)
+TWRP device tree for ASUS ROG Phone 5(s)
+a.k.a. "Anakin"
+a.k.a. ZS673KS
