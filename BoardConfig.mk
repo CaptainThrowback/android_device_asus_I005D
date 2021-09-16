@@ -35,5 +35,5 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
 
 # TWRP specific build flags
-TW_LOAD_VENDOR_MODULES += "focaltech_fts_rog.ko focaltech_fts_rog2.ko texfat.ko tntfs.ko"
+TW_LOAD_VENDOR_MODULES := "focaltech_fts_rog.ko focaltech_fts_rog2.ko texfat.ko tntfs.ko"
 TW_HAPTICS_TSPDRV := true
