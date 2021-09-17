@@ -30,10 +30,8 @@ DEVICE_PATH := device/$(PRODUCT_BRAND)/$(TARGET_DEVICE)
 -include device/$(PRODUCT_BRAND)/$(COMMON_SOC)-common/BoardConfigCommon.mk
 
 # Kernel prebuilts
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
 
 # TWRP specific build flags
-TW_LOAD_VENDOR_MODULES := "focaltech_fts_rog.ko focaltech_fts_rog2.ko texfat.ko tntfs.ko"
+TW_LOAD_VENDOR_MODULES := "focaltech_fts_rog.ko focaltech_fts_rog2.ko"
 TW_HAPTICS_TSPDRV := true
